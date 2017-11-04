@@ -1,0 +1,23 @@
+{
+  "name": "reason-remote-data",
+  "version": "1.0.0",
+  "description": "A port of the Elm remote-data library by krisajenkins w/ ReasonReact addons",
+  "main": "index.js",
+  "repository": "https://github.com/ReasonVienna/reason-remote-data.git",
+  "author": "Ali Sharif <busypeoples@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "bsb -make-world && webpack",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0",
+    "webpack": "webpack -w"
+  },
+  "dependencies": {
+    "reason-react": "^0.2.4"
+  },
+  "devDependencies": {
+    "bs-platform": "^2.0.0",
+    "webpack": "^1.14.0"
+  }
+}
